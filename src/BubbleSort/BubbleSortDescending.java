@@ -3,7 +3,7 @@ package BubbleSort;
 // Bubble Sort Method for Descending Order
 
 public class BubbleSortDescending {
-    public static void BubbleSortDescendingOrder(int[] array) {
+    public static void bubbleSortDescendingOrder(int[] array) {
         int j;
         boolean checkpoint = true;
         int temp;
