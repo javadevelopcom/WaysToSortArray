@@ -2,8 +2,8 @@ import bubbleSort.AlphabeticBubbleSortAscending;
 import bubbleSort.AlphabeticBubbleSortDescending;
 import bubbleSort.BubbleSortAscending;
 import bubbleSort.BubbleSortDescending;
-import exchangeSort.ExchangeSortAscending;
-import exchangeSort.ExchangeSortDescending;
+import exchangeSort.ExchangeSortAscend;
+import exchangeSort.ExchangeSortDescend;
 
 import java.util.Arrays;
 
@@ -27,12 +27,12 @@ public class Main {
         System.out.println("или: " + Arrays.toString(MyArray.X));
 
         System.out.println('\n' + "Сортировка массива Обменом по возрастанию:");
-        ExchangeSortAscending.exchangeSortAscendingOrder(MyArray.X);
+        ExchangeSortAscend.exchangeSortAscendingOrder(MyArray.X);
         PrintArray.printArrayX();
         System.out.println("или: " + Arrays.toString(MyArray.X));
 
         System.out.println('\n' + "Сортировка массива Обменом по убыванию:");
-        ExchangeSortDescending.exchangeSortDescendingOrder(MyArray.X);
+        ExchangeSortDescend.exchangeSortDescendingOrder(MyArray.X);
         PrintArray.printArrayX();
         System.out.println("или: " + Arrays.toString(MyArray.X));
 
