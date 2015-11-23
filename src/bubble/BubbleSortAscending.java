@@ -1,4 +1,4 @@
-package BubbleSort;
+package bubble;
 
 // Bubble Sort Method for Ascending Order
 
