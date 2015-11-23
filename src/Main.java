@@ -48,7 +48,6 @@ public class Main {
         PrintArray.printArrayZ();
         System.out.println("или: " + Arrays.toString(MyArray.Z));
 
-
     }
 }
 
