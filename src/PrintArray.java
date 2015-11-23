@@ -4,4 +4,10 @@ public class PrintArray {
             System.out.print(i + " ");
         }
     }
+
+    static void printArrayZ() {
+        for (String i : MyArray.Z) {
+            System.out.print(i + " ");
+        }
+    }
 }
