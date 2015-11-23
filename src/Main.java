@@ -1,5 +1,5 @@
-import bubble.ABubbleSortAscend;
-import bubble.ABubbleSortDescend;
+import bubble.BubbleSortAZ;
+import bubble.BubbleSortZA;
 import bubble.BubbleSortAscending;
 import bubble.BubbleSortDescending;
 import exchange.ExchSortAscend;
@@ -38,12 +38,12 @@ public class Main {
 
         System.out.println('\n' + "Несортированный массив: " + Arrays.toString(MyArray.Z));
 
-        ABubbleSortAscend.sortStringBubbleAscending(MyArray.Z);
+        BubbleSortAZ.sortStringBubbleAscending(MyArray.Z);
         System.out.println('\n' + "Сортировка массива Пузырьком по возрастанию: ");
         PrintArray.printArrayZ();
         System.out.println("или: " + Arrays.toString(MyArray.Z));
 
-        ABubbleSortDescend.sortStringBubbleDescending(MyArray.Z);
+        BubbleSortZA.sortStringBubbleDescending(MyArray.Z);
         System.out.println('\n' + "Сортировка массива Пузырьком по убыванию: ");
         PrintArray.printArrayZ();
         System.out.println("или: " + Arrays.toString(MyArray.Z));
