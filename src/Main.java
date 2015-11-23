@@ -11,9 +11,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println("Несортированный массив: " + Arrays.toString(MyArray.X));
-        PrintArray.printArrayX();
-        System.out.println();
+        System.out.println("Несортированный массив: " + '\n' + Arrays.toString(MyArray.X));
+
+        Arrays.sort(MyArray.X);
+        System.out.println('\n' + "Сортировка массива при помощи метода sort(): " + '\n' + Arrays.toString(MyArray.X));
 
         System.out.println('\n' + "Сортировка массива Пузырьком по возрастанию:");
         BubbleSortAscending.bubbleSortAscendingOrder(MyArray.X);
